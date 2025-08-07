@@ -49,7 +49,7 @@ const contactData = {
 
     supportPlatforms: [
         {
-            label: "QRIS",
+            label: "Thank you!",
             type: "image",
             imageSrc: "/assets/qris.jpg",
             alt: ":v",
