@@ -8,9 +8,9 @@ const skillsData = {
             skills: [
                 { name: "HTML", icon: "bx bxl-html5", level: "Advanced" },
                 { name: "CSS", icon: "bx bxl-css3", level: "Advanced" },
-                { name: "JavaScript", icon: "bx bxl-javascript", level: "Advanced" },
+                { name: "JavaScript", icon: "bx bxl-javascript", level: "Intermediate" },
                 { name: "React", icon: "bx bxl-react", level: "Advanced" },
-                { name: "Tailwind CSS", icon: "bx bxl-tailwind-css", level: "Advanced" },
+                { name: "Tailwind CSS", icon: "bx bxl-tailwind-css", level: "Intermediate" },
                 { name: "Vite", icon: "bx bx-bolt-circle", level: "Intermediate" }
             ]
         },
@@ -18,13 +18,15 @@ const skillsData = {
             title: "Backend",
             icon: "bx bx-server",
             skills: [
-                { name: "Node.js", icon: "bx bxl-nodejs", level: "Advanced" },
-                { name: "Express.js", icon: "bx bx-layer", level: "Advanced" },
-                { name: "Supabase", icon: "bx bx-data", level: "Intermediate" },
-                { name: "MongoDB", icon: "bx bxl-mongodb", level: "Intermediate" },
-                { name: "PostgreSQL", icon: "bx bx-data", level: "Intermediate" },
-                { name: "JWT Auth", icon: "bx bx-key", level: "Intermediate" }
+                { name: "Node.js", icon: "bx bxl-nodejs", level: "Intermediate" },
+                { name: "Express.js", icon: "bx bx-layer", level: "Intermediate" },
+                { name: "MySQL", icon: "bx bxl-mysql", level: "Advanced" },
+                { name: "MongoDB", icon: "bx bxl-mongodb", level: "Basic" },
+                { name: "PostgreSQL", icon: "bx bx-data", level: "Basic" },
+                { name: "Firebase", icon: "bx bxl-firebase", level: "Basic" }
+
             ]
+
         },
         {
             title: "Other Tools",
@@ -34,7 +36,7 @@ const skillsData = {
                 { name: "GitHub", icon: "bx bxl-github", level: "Advanced" },
                 { name: "Figma", icon: "bx bxl-figma", level: "Intermediate" },
                 { name: "Vercel", icon: "bx bx-upload", level: "Intermediate" },
-                { name: "Netlify", icon: "bx bx-cloud-upload", level: "Intermediate" },
+                { name: "Render", icon: "bx bx-server", level: "Intermediate" },
                 { name: "Postman", icon: "bx bx-send", level: "Intermediate" }
             ]
         },
@@ -42,9 +44,7 @@ const skillsData = {
             title: "AI/ML & Tools",
             icon: "bx bx-brain",
             skills: [
-                { name: "TensorFlow", icon: "bx bx-pulse", level: "Basic" },
-                { name: "OpenCV", icon: "bx bx-camera", level: "Basic" },
-                { name: "Python", icon: "bx bxl-python", level: "Intermediate" }
+                { name: "Python", icon: "bx bxl-python", level: "Basic" }
             ]
         }
     ]

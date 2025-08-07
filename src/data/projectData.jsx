@@ -5,20 +5,27 @@ const projectData = {
 
     projects: [
         {
-            icon: "bx bx-wallet",
-            title: "Money Tracker",
-            type: "Fullstack",
+            icon: "bx bx-food-menu",
+            title: "Meal Planner",
+            type: "Frontend",
             features: [
-                "Supabase Auth + Database",
-                "CRUD transaksi harian",
-                "Statistik pengeluaran",
-                "Dark mode UI"
-            ],
-            tech: ["React", "Supabase", "Tailwind"],
+                "Mock Auth & User Profiles",
+                "Recipe CRUD (Create, Edit, Delete)",
+                "Drag-and-drop Meal Planner",
+                "Search, filter & sort recipes",
+                "Comment & reply system",
+                "5-star rating system",
+                "Dark/Light mode toggle",
+                "Responsive design (mobile/tablet/desktop)",
+                "LocalStorage & mock API support",
+                "Nutritional summary for meals"
+            ]
+            ,
+            tech: ["React"],
             year: 2025,
             status: "Completed",
-            demo: "#home",
-            github: "#home"
+            demo: "https://myrecipes-app.vercel.app/",
+            github: "https://github.com/ThanhPhat-coder/MealPlanner_Ver2"
         },
         {
             icon: "bx bx-id-card",
@@ -34,187 +41,31 @@ const projectData = {
             year: 2025,
             status: "Completed",
             demo: "#home",
-            github: "#home"
+            github: "https://github.com/ThanhPhat-coder/MyPortofolio"
         },
         {
-            icon: "bx bx-bot",
-            title: "AI Chatbot JSON",
-            type: "Fullstack",
+            icon: "bx bx-food-menu",
+            title: "MyRecipe",
+            type: "Frontend + Backend",
             features: [
-                "React + Express backend",
-                "Input belajar dari user",
-                "Simpan ke JSON",
-                "Logic respons otomatis"
-            ],
+                "Weekly and monthly meal planning",
+                "Drag-and-drop meal scheduling",
+                "Personalized meal creation",
+                "Overview of planned meals",
+                "Efficient diet organization",
+                "User-friendly and responsive UI"
+            ]
+            ,
             tech: ["React", "Express", "Node.js"],
             year: 2025,
             status: "Completed",
             demo: "#home",
-            github: "#home"
+            github: "https://github.com/ThanhPhat-coder/PlaningMealWebSite"
         },
-        {
-            icon: "bx bx-server",
-            title: "RESTful API Service",
-            type: "Backend",
-            features: [
-                "Express.js + MongoDB",
-                "JWT Auth",
-                "CRUD user & posts",
-                "Swagger API docs"
-            ],
-            tech: ["Node.js", "Express", "MongoDB"],
-            year: 2024,
-            status: "Completed",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-cloud-lightning",
-            title: "Weather App",
-            type: "Frontend",
-            features: [
-                "Fetch API OpenWeather",
-                "Search by city",
-                "Responsive UI",
-                "Dark mode"
-            ],
-            tech: ["HTML", "CSS", "JavaScript"],
-            year: 2024,
-            status: "Completed",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-link-alt",
-            title: "Link Collector",
-            type: "Fullstack",
-            features: [
-                "User auth (Supabase)",
-                "Simpan link pribadi",
-                "Search + filter",
-                "Responsive design"
-            ],
-            tech: ["React", "Supabase"],
-            year: 2025,
-            status: "In Progress",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-notepad",
-            title: "Simple Note App",
-            type: "Frontend",
-            features: [
-                "LocalStorage persistence",
-                "Add/edit/delete note",
-                "Minimalist UI",
-                "No backend needed"
-            ],
-            tech: ["React"],
-            year: 2023,
-            status: "Completed",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-message-detail",
-            title: "QnA Forum",
-            type: "Fullstack",
-            features: [
-                "Ask & reply system",
-                "Vote & comment",
-                "Supabase realtime",
-                "Auth & user threads"
-            ],
-            tech: ["React", "Supabase"],
-            year: 2025,
-            status: "In Progress",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-calendar-check",
-            title: "Habit Tracker",
-            type: "Frontend",
-            features: [
-                "Track daily habits",
-                "Calendar view",
-                "Custom habit types",
-                "Save via LocalStorage"
-            ],
-            tech: ["React", "Tailwind"],
-            year: 2024,
-            status: "Completed",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-bulb",
-            title: "Feedback Board",
-            type: "Backend",
-            features: [
-                "Post feedback",
-                "Voting system",
-                "Node.js API",
-                "MongoDB backend"
-            ],
-            tech: ["Node.js", "MongoDB"],
-            year: 2024,
-            status: "Completed",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-image",
-            title: "Image Gallery",
-            type: "Frontend",
-            features: [
-                "Grid layout",
-                "Modal zoom",
-                "Search filter",
-                "Responsive design"
-            ],
-            tech: ["React", "Tailwind"],
-            year: 2023,
-            status: "Completed",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-code-block",
-            title: "Markdown Editor",
-            type: "Frontend",
-            features: [
-                "Live preview",
-                "Dark mode toggle",
-                "Export to .md",
-                "Clean UI"
-            ],
-            tech: ["React", "Tailwind"],
-            year: 2024,
-            status: "Completed",
-            demo: "#home",
-            github: "#home"
-        },
-        {
-            icon: "bx bx-chat",
-            title: "Realtime Chat",
-            type: "Fullstack",
-            features: [
-                "Supabase realtime",
-                "User auth",
-                "Room system",
-                "Message timestamp"
-            ],
-            tech: ["React", "Supabase"],
-            year: 2025,
-            status: "In Progress",
-            demo: "#home",
-            github: "#home"
-        },
+
         {
             icon: "bx bx-money",
-            title: "Currency Converter",
+            title: "Money Management",
             type: "Frontend",
             features: [
                 "Exchange rate API",
@@ -222,28 +73,68 @@ const projectData = {
                 "Simple UX",
                 "Mobile responsive"
             ],
-            tech: ["HTML", "CSS", "JavaScript"],
-            year: 2024,
+            tech: ["React"],
+            year: 2025,
             status: "Completed",
             demo: "#home",
             github: "#home"
         },
         {
-            icon: "bx bx-task",
-            title: "Todo API Server",
-            type: "Backend",
+            icon: "bx bx-keyboard",
+            title: "10FastFingers",
+            type: "Frontend",
             features: [
-                "RESTful CRUD routes",
-                "Express.js + PostgreSQL",
-                "Rate limit middleware",
-                "JSON response format"
+                "Real-time typing speed test",
+                "WPM (words per minute) calculation",
+                "Timer countdown & word generator",
+                "Typing accuracy tracking",
+                "Responsive design for all devices"
             ],
-            tech: ["Node.js", "PostgreSQL"],
+            tech: ["HTML", "CSS", "JavaScript"],
+            year: 2024,
+            status: "Completed",
+            demo: "#home",
+            github: "https://github.com/ThanhPhat-coder/10-fast-finger"
+        },
+        {
+            icon: "bx bx-movie-play",
+            title: "Movie Booking App",
+            type: "Mobile App (Frontend)",
+            features: [
+                "Browse and search movies using TMDb API",
+                "View movie details, ratings, and trailers",
+                "Select showtimes and book tickets",
+                "Add movies to favorites",
+                "Persist data using AsyncStorage",
+                "Modern and responsive mobile UI"
+            ],
+            tech: ["React Native", "TMDb API", "AsyncStorage"],
             year: 2025,
             status: "Completed",
             demo: "#home",
-            github: "#home"
+            github: "https://github.com/ThanhPhat-coder/MovieBookingApp"
+        },
+        {
+            icon: "bx bx-cart",
+            title: "Item Cart",
+            type: "Frontend",
+            features: [
+                "Add, remove, and update items in cart",
+                "Real-time total price calculation",
+                "Quantity adjustment with validation",
+                "Responsive and modular UI components",
+                "State management with Angular services"
+            ],
+            tech: ["Angular", "SCSS", "TypeScript"],
+            year: 2025,
+            status: "Completed",
+            demo: "#home",
+            github: "https://github.com/ThanhPhat-coder/item-cart_angular"
         }
+
+
+
+
     ]
 };
 
